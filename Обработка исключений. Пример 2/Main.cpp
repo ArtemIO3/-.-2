@@ -20,16 +20,18 @@ public:
         if (a < 0)
         {
             throw-1;
-             x = a;
-        }
+            
+        } 
+        x = a;
     }
     int SetY(int b)
     {
         if (b < 0)
         {
             throw -1;
-            y = b;
-        }
+           
+        } 
+        y = b;
     }
 };
 
